@@ -37,8 +37,6 @@ for i in range(m):
         dictionary[temp_array[1]] = [[temp_array[0]] + [temp_array[2]]]
         weight[temp_array[0]] = float('inf')
         weight[temp_array[1]] = float('inf')
-print(dictionary)
-print(weight)
 
 first_peak, last_peak = map(str, input().split(" "))
 weight[first_peak] = 0
