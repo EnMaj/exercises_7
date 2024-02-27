@@ -23,6 +23,7 @@ def dijkstra(now_peak,last_peak,dictionary, weight):
         now_peak = min_peak
         return dijkstra(now_peak,last_peak,dictionary,weight)
 
+
 for i in range(m):
     temp_array = list(map(str, input().split(" ")))
     if temp_array[0] in dictionary:
