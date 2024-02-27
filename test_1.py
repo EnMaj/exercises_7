@@ -7,9 +7,9 @@ for i in range(len(word_array)):
 for i in sorted(dictionary.items(), key=lambda item: item[1], reverse=True):
     print(i[0])'''
 
-now_array = sorted((value, key) for (key, value) in dictionary.items())
-now_array.reverse()
-for i in now_array:
+sort_dict = sorted((value, key) for (key, value) in dictionary.items())
+sort_dict.reverse()
+for i in sort_dict:
     print(i[1])
 
 
